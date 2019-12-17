@@ -1,0 +1,18 @@
+everything immutable
+    val (never var)
+    List (not MutableList)
+
+function are pure
+   outs depend only on the ins
+    or immutable instance vars of the same class: oo functional awesomeness
+   //void function
+   //zero arg functions
+   //have args and return a value
+   // in kotlin u have a 2nd arg: the receiver (i.e. the :this")
+   Card{
+        fun foo(i:Int):Int{
+
+        }
+   }
+
+xslt

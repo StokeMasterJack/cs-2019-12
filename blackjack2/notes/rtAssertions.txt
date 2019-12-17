@@ -1,0 +1,5 @@
+
+assert()  //goes away - throws AssertionError
+
+check()   //does not goes away  - throws IllegalStateException
+require()   //does not goes away  - throws IllegalArgumentException

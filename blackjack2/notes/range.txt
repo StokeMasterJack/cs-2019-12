@@ -1,0 +1,32 @@
+val r:IntRange = IntRange(1,4)
+val i:Int = 2
+
+
+
+val cc:Boolean = i.in(r)
+
+
+val ii = 33 + 3
+
+
+infix notation (alternate way to call a function)
+    mod1.wrap(mod2)
+    mod2 wrap mod1
+
+operator overloading
+    some function have reserved
+        unaryPlus +22
+        plus
+            22 + 44
+        minus
+
+myRange.contains(i:Int):Boolean{
+
+}
+    in
+
+class Int{
+    operator fun plus(other:Int):Int{
+        return this * other
+    }
+}

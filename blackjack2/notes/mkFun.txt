@@ -1,0 +1,28 @@
+//Callable reference
+fun myFunction():String{
+    return "dd"
+}
+val ff1:()->String = ::myFunction
+
+
+//Lambda expressions
+val ff2:()->String = {
+    "ffffff"
+}
+
+foo({
+    "ffffff"
+})
+
+//if the last arg of a function is of type function (lambda)
+//u can put it after parens
+
+foo(){
+    "ffffff"
+}
+
+foo{
+    "ffffff"
+}
+
+infix

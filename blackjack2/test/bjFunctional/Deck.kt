@@ -1,4 +1,4 @@
-package bjFunctionalDf
+package bjFunctional
 
 
 private fun mkCards(shuffle: Boolean): List<Card> {

@@ -8,32 +8,9 @@ private val tab = " ".repeat(indentSize)
 private val nl = System.getProperty("line.separator")!!
 private fun indent(depth: Int) = tab.repeat(depth)
 
-fun List<HBuilder>.ser1(depth: Int = 0): String = joinToString(separator = "") { it.ser(depth + 1) }
-
-fun List<HBuilder>.ser(depth: Int = 0): String {
-
-    val strings: List<String> = this.map {
-        it.ser(depth + 1)
-    }
-
-    val s: String = strings.joinToString(separator = "")
-
-    return s
-}
-
-fun List<HBuilder>.ser3(depth: Int): String = map { it.ser(depth + 1) }.joinToString(separator = "")
-
-
-/*
-    H
-        Text
-        El
-            div
-            span
- */
+fun List<HBuilder>.ser(depth: Int = 0): String = joinToString(separator = "") { it.ser(depth + 1) }
 
 typealias H = HBuilder.Companion  //create an empty NodeBuilder
-
 
 typealias F<T> = T.() -> Unit        //add the middle stuff to that node builder
 typealias BFactory<T> = () -> T

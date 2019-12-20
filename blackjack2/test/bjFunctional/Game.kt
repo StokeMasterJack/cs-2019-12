@@ -1,4 +1,4 @@
-package bjFunctionalDf
+package bjFunctional
 
 typealias DeckHand = Pair<Deck, Hand>
 

@@ -2,11 +2,7 @@ package misc
 
 //language=MySQL
 const val sql1: String = """
-    
-    
-    
+    SELECT *
+    FROM person
 """
 
-fun main(args: Array<String>) {
-
-}

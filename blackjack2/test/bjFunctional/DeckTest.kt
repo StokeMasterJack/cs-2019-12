@@ -1,4 +1,4 @@
-package bjFunctionalDf
+package bjFunctional
 
 import org.junit.Test
 import kotlin.test.assertEquals

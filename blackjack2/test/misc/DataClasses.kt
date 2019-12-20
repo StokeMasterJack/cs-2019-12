@@ -9,17 +9,15 @@ data class Point(val a: Int, val b: Int) {
 fun main(args: Array<String>) {
     val d1 = Point(1, 2)
     val d2 = d1.copy(a = 33)
-
-    val (a, b) = d1
+    val (a, b) = d2
 }
-//free
+
 
 /*
-
-toString()
-hashcode
-equals
-
-copy()
-
+For Free:
+    toString()
+    hashcode
+    equals
+    Destructuring
+    copy()
  */

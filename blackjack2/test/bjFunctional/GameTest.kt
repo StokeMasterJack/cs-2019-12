@@ -1,4 +1,4 @@
-package bjFunctionalDf
+package bjFunctional
 
 import org.junit.Test
 import kotlin.test.assertEquals
@@ -71,7 +71,6 @@ class GameTest {
             check(!isDealClean)
         }
 
-
     }
 
     @Test
@@ -83,7 +82,6 @@ class GameTest {
             g = g.hit()
             check(!g.isDealClean)
             g = g.stay()
-            println(g.winner)
         }
     }
 }

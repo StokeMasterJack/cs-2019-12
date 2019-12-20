@@ -1,4 +1,4 @@
-package bjFunctionalDf
+package bjFunctional
 
 /**
  * @param index 0..51

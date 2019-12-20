@@ -1,4 +1,4 @@
-package bjFunctionalDf
+package bjFunctional
 
 enum class HandType {
     Dealer, Player

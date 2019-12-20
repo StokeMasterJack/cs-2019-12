@@ -4,5 +4,33 @@
 //suspend
 //resume
 
+CoroutineScope
+    coroutine ctx
+    dispatchers
+
+
+suspend can be called from:
+    coroutine
+    another suspend fun
+
+Two ways to start a co:
+    Job: launch:  fire and forget
+    Deferred<Int>: async
+
+CoroutineScope
+    co must always run is some scope
+    1. interupt
+    2. throws
+
+    there is parent child relation
+    that connection is established via the receiver
+
+structured concurency
+
+exception
+ends normally
+interupt
+
+
 
 

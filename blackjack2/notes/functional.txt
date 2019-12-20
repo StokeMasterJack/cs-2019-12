@@ -1,0 +1,13 @@
+everything immutable
+    val (never var)
+    List (not MutableList)
+    function are pure
+        functions have args and return a value
+        return value depends only on the args
+    Not so much:
+        void function
+        zero arg functions
+
+Kotlin OO functional
+    args can include the receiver (the "this")
+    return value depends only on the args + immutable instance vals
